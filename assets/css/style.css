@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+a, span {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+};
+ul{
+    list-style: none;
+}
+.row{
+    margin: 0;
+    padding: 0;
+
+}
+.nav-join-div{
+    background-color: aqua;
+    margin : 0;
+    padding: 0 !important;
+    width: 180px;
+    height: 70px;
+    
+    
+}
+.nav-join-btn{
+    padding: 25px 25px 25px 35px;
+    border-radius: 0;
+    margin: 0 !important;
+}
