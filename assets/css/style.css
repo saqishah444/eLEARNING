@@ -1,33 +1,155 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+:root {
+    --primary-color: #06BBCC !important;
+}
 
-a, span {
+.primary-color {
+    color: var(--primary-color) !important;
+
+}
+
+.background-primary {
+    background-color: var(--primary-color) !important;
+}
+.light-dark{
+    color: rgb(179, 179, 179);
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--primary-color);
+    --bs-btn-border-color: var(--primary-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #4fc0ca;
+    --bs-btn-hover-border-color: #71bbc2;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #71bbc2;
+    --bs-btn-active-border-color: #71bbc2;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--primary-color);
+    --bs-btn-disabled-border-color: var(--primary-color);
+}
+
+a,
+span {
     text-decoration: none;
     margin: 0;
     padding: 0;
-};
-ul{
+}
+
+;
+
+ul {
     list-style: none;
 }
-.row{
+
+.row {
     margin: 0;
     padding: 0;
 
 }
-.nav-join-div{
-    background-color: aqua;
-    margin : 0;
+
+.nav-join-div {
+    background-color: blue;
+    margin: 0;
     padding: 0 !important;
     width: 180px;
     height: 70px;
-    
-    
+
+
 }
-.nav-join-btn{
+
+.nav-join-btn {
     padding: 25px 25px 25px 35px;
     border-radius: 0;
     margin: 0 !important;
+}
+
+.nav-item {
+    color: black !important;
+
+}
+
+.nav-item:hover .nav-link {
+    color: var(--primary-color);
+}
+
+.dropdown-item:hover {
+    color: var(--primary-color);
+}
+
+/* hero section styling  */
+
+#hero-section {
+    height: 100vh;
+
+}
+
+#heroCarousel {
+    height: 100vh;
+}
+
+.slide-1 {
+    background-image: url(../images/carousel-1.jpg);
+
+}
+
+.slide-2 {
+    background-image: url(../images/carousel-2.jpg);
+}
+
+.carousel {
+    height: 100vh;
+}
+
+.carousel-caption {
+    left: 5% !important;
+    right: 65% !important;
+    top: 20% !important;
+}
+
+
+/* services section styling */
+.services-cards {
+    background-color: #f0fbfc;
+    transition: all ease 0.5s;
+}
+
+.services-cards:hover {
+
+    background-color: var(--primary-color);
+    transform: translateY(-10px);
+
+    h5 {
+        color: white;
+    }
+
+    i {
+        color: white !important;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+/* start about section styling */
+.top-line {
+    width: 40px;
+    height: 2px;
+    background-color: var(--primary-color);
+    align-items: flex-start;
+}
+.bottom-line {
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin-top: auto;
+    
 }
