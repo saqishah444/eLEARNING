@@ -16,7 +16,7 @@
     background-color: var(--primary-color) !important;
 }
 .light-dark{
-    color: rgb(179, 179, 179);
+    color: #52565b !important;
 }
 
 .btn-primary {
@@ -47,6 +47,34 @@ span {
 
 ul {
     list-style: none;
+}
+.top-line-first {
+    width: 40px;
+    height: 2px;
+    background-color: var(--primary-color);
+    
+    margin-top: 5px;
+}
+.bottom-line-first {
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin-top: auto;
+    
+}
+.top-line-last {
+    width: 40px;
+    height: 2px;
+    background-color: var(--primary-color);
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.bottom-line-last {
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin-top: auto;
+    
 }
 
 .row {
@@ -86,34 +114,68 @@ ul {
 
 /* hero section styling  */
 
-#hero-section {
-    height: 100vh;
+.card-img-overlay {
+    padding-top: 200px;
+    padding-left: 100px;
+    background: rgba(24, 29, 56, .7);
+    ;
+}
+
+.container-fluid {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 
 }
 
-#heroCarousel {
-    height: 100vh;
+
+.display-1 {
+    font-size: 70px !important;
 }
 
-.slide-1 {
-    background-image: url(../images/carousel-1.jpg);
+h1 {
+    font-family: "Nunito", sans-serif !important;
+    ;
+}
+
+.card-title1 {
+    color: #0dcaf0 !important;
+}
+
+.carousel-control-prev {
+    display: block !important;
+    left: auto !important;
+    right: 0 !important;
+    top: -100px !important;
+}
+
+.carousel-control-prev-icon {
+    border: 1px solid white !important;
+    padding: 20px !important;
+    transition: all ease .3s !important;
 
 }
 
-.slide-2 {
-    background-image: url(../images/carousel-2.jpg);
+.carousel-control-prev-icon:hover {
+    background-color: #0dcaf0 !important;
+    ;
 }
 
-.carousel {
-    height: 100vh;
+.carousel-control-next-icon {
+    border: 1px solid white !important;
+    padding: 20px !important;
+    transition: all ease .3s !important;
 }
 
-.carousel-caption {
-    left: 5% !important;
-    right: 65% !important;
-    top: 20% !important;
+.carousel-control-next-icon:hover {
+    background-color: #0dcaf0 !important;
+    border-color: #0dcaf0 !important;
 }
 
+.carousel-control-next {
+    display: block !important;
+}
 
 /* services section styling */
 .services-cards {
@@ -139,17 +201,16 @@ ul {
     }
 }
 
+
+
 /* start about section styling */
-.top-line {
-    width: 40px;
-    height: 2px;
-    background-color: var(--primary-color);
-    align-items: flex-start;
+#about p{
+    font-size: 17.7px !important;
 }
-.bottom-line {
-    width: 60px;
-    height: 2px;
-    background-color: var(--primary-color);
-    margin-top: auto;
-    
+.about-h{
+    font-family: "Heebo",sans-serif !important;
+    font-weight: 500;
+}
+.about-sec-btn{
+    margin-top: 20px;
 }
