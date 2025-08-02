@@ -280,3 +280,124 @@ h1 {
     background-color:  #edfbfc;
      padding: 13px 7px 13px 7px;
 }
+
+/* start testimonial section styling */
+
+    .slider-container {
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slider-wrapper {
+      display: flex;
+      gap: 30px;
+      transition: transform 0.5s ease;
+      justify-content: center;
+      transform: translateX(0);
+      /* width: fit-content; */
+    }
+
+    .testimonial-card {
+      width: 350px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      opacity: 0.5;
+      transition: all 0.5s ease;
+      flex-shrink: 0;
+    }
+
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      filter: grayscale(100%);
+      opacity: 0.6;
+    }
+
+    .testimonial-card h5 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #666;
+      font-weight: 500;
+    }
+
+    .testimonial-card p {
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    .testimonial-card .content-box {
+      background-color: #f1f8fa;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #aaa;
+    }
+
+    /* Active Card */
+    .testimonial-card.active {
+      opacity: 1;
+      transform: scale(1.05);
+      
+    }
+
+    .testimonial-card.active img {
+      margin: 0 auto 15px;
+      display: block;
+      border-radius: 50%;
+      width: 90px;
+      height: 90px;
+      filter: none;
+      opacity: 1;
+    }
+
+    .testimonial-card.active h5 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 5px;
+    }
+
+    .testimonial-card.active p {
+      color: #777;
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .testimonial-card.active .content-box {
+      background-color: #00c5d4;
+      color: #fff;
+      margin-top: 15px;
+      padding: 15px;
+      border-radius: 5px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .pagination-dots {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin: 0 5px;
+      background-color: #00bcd4;
+      border-radius: 50%;
+      opacity: 0.3;
+      transition: opacity 0.3s;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      opacity: 1;
+    }
