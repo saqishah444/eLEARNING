@@ -184,3 +184,12 @@ slider.addEventListener("touchend", (e) => {
 // Initial render
 renderCards();
 renderDots();
+
+
+let email = document.getElementById("email");
+email.addEventListener("click", function(){
+    email.style.border = "2px";
+    email.style.border = "blue";
+    email.style.border = "solid";
+
+})

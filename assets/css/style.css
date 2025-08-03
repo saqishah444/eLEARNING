@@ -54,8 +54,24 @@ body {
     transition: all ease 0.5s;
 }
 
+
 ul {
     list-style: none;
+}
+.b-to-t{
+   
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.bottom-to-top{
+     width: 45px;
+    height: 50px;
+    i{
+        color: white;
+    }
+    
 }
 
 .top-line-first {
@@ -435,4 +451,27 @@ h1 {
 }
 .quicklinks:hover span{
    transform: translateY(-10px);
+}
+.footer-icons{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+.footer-icons:hover{
+    background-color: white;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.footer-signup-btn{
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    margin-top: 15px;
+    
+
 }
