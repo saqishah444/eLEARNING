@@ -488,6 +488,8 @@ h1 {
 .hero-section-about-page{
     background-image: url(../images/about\ page.jpg);
     background-size: cover;
+    
+    background-repeat: no-repeat;
     height: 300px;
 }
 .card-img-overlay2{
