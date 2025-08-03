@@ -50,7 +50,7 @@ span {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Nunito", sans-serif;
     transition: all ease 0.5s;
 }
 
@@ -153,8 +153,8 @@ nav {
 }
 
 h1 {
-    font-family: "Nunito", sans-serif !important;
-    ;
+    /* font-family: "Nunito", sans-serif !important;
+    ; */
 }
 
 .card-title1 {
@@ -201,7 +201,6 @@ h1 {
 }
 
 .about-h {
-    font-family: "Heebo", sans-serif !important;
     font-weight: 500;
 }
 
@@ -329,8 +328,8 @@ h1 {
     opacity: 0.5;
     transition: all 0.5s ease;
     flex-shrink: 0;
-    
-    
+
+
 }
 
 .testimonial-card img {
@@ -423,4 +422,17 @@ h1 {
 
 .dot.active {
     opacity: 1;
+}
+/* end testimonial section styling */
+
+/* start footer styling */
+#footer{
+    background-color: #181d38;
+    color: white;
+}
+.quicklinks:hover {
+    transition: all ease 0.5s;
+}
+.quicklinks:hover span{
+   transform: translateY(-10px);
 }
