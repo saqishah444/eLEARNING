@@ -485,7 +485,7 @@ h1 {
 
 /* about page styling */
 
-.about-section{
+.hero-section-about-page{
     background-image: url(../images/about\ page.jpg);
     background-size: cover;
     height: 300px;
@@ -497,4 +497,14 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* end styling of about page */
+
+/* start courses page styling */
+
+.hero-section-courses-page{
+    background-image: url(../images/about\ page.jpg);
+    background-size: cover;
+    height: 300px;
 }
