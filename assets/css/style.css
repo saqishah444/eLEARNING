@@ -198,21 +198,19 @@ h1 {
 }
 
 .services-cards:hover {
-
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
     transform: translateY(-10px);
+  
+    div  i {
+        color: white !important;
+    };
 
     h5 {
-        color: white;
-    }
-
-    i {
         color: white !important;
-    }
-
-    p {
-        color: white;
-    }
+    };
+    p{
+        color: white !important;
+    }  
 }
 
 
