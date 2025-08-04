@@ -452,11 +452,12 @@ h1 {
     background-color: #181d38;
     color: white;
 }
-.quicklinks:hover {
-    transition: all ease 0.5s;
+.quicklinks:hover p{
+    transition: all ease 0.3s;
 }
-.quicklinks:hover span{
-   transform: translateY(-10px);
+.quicklinks:hover p{
+   transform: translateX(5px);
+   font-size: 18px;
 }
 .footer-icons{
     width: 35px;
@@ -510,3 +511,24 @@ h1 {
     background-size: cover;
     height: 300px;
 }
+
+
+/* start contact section styling */
+
+.contact-icons{
+    background-color: var(--primary-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send-msg-btn{
+    margin-top: 15px;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
